@@ -8,7 +8,7 @@ function SlashCmdList.MapPinHelper(msg, editbox)
 		print("Clearing active map pin.")
 	else
 		local options = {}
-		local searchResult = { string.match(msg,"^(%d+)%s*(%d+)$") }
+		local searchResult = { string.match(msg,"^(%d+)%s(%d+)$") }
 		for i,v in pairs(searchResult) do
         		if (v ~= nil and v ~= "") then
             		options[i] = v
