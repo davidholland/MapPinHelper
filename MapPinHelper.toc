@@ -1,0 +1,6 @@
+## Interface: 90001
+## Title: Map Pin Helper
+## Author: Eodred - Doomhammer
+## Version: 0.1
+
+Main.lua
